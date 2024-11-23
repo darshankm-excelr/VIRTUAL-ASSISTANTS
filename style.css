@@ -1,0 +1,116 @@
+
+
+*{
+  background-color:black;
+  font-family: mono;
+}
+
+h1{
+  color: rgba(202, 253, 255, 0.5) ;
+  display: block;
+  margin-top: 50px;
+}
+#root1{
+  margin-left: 600px;
+  margin-top: -300px;
+}
+#root{
+  display: inline-block;
+  display: grid;
+  margin-left: 70px;
+  margin-top: 0px;
+}
+#data{
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: bold;
+  
+  
+}
+#hero-img {
+  width: 45vh;
+  height: 45vh;
+}
+button,
+input {
+  padding: 1rem;
+  border: 0px;
+}
+.action-btn {
+  background-color: rgba(202, 253, 255, 0.5);
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 90%;
+  margin: 0.5rem;
+  
+}
+.action-btn:hover {
+  border-color: #646cff;
+}
+.input-cover {
+  display: flex;
+  width: 90%;
+}
+.input-box {
+  padding-right: 2rem;
+  border-radius: 1rem 0px 0px 1rem;
+  flex: 1;
+  font-size: 1.5rem;
+  color: black;
+  border: 0px;
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  #root {
+    width: 100vh;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  #hero-img {
+    width: 40vh;
+    height: 40vh;
+  }
+  .action-btn {
+    width: 80%;
+  }
+  .input-cover {
+    width: 80%;
+  }
+  button,
+  input {
+    padding: 0.4rem;
+    border: 0px;
+  }
+  .input-box {
+    padding-left: 1rem;
+  }
+  .mic-icon {
+    width: 1rem;
+  }
+}
+#data{
+  color: white;
+}
+#micBtn {
+  border-radius: 0px 1rem 1rem 0px;
+  width: 4rem;
+  height: 4rem;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mic-icon {
+
+  font-size: 1.5rem; 
+  background-color: white;
+  
+
+}
+
+
